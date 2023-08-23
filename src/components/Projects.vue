@@ -43,7 +43,7 @@
         </button>
       </div>
       <div class="Project4 text-sm">
-        <img src="../assets/image/Story App.jpg" alt="" class="rounded-md border-1 shadow-lg" />
+        <img src="../assets/image/StoryApp.jpg" alt="" class="rounded-md border-1 shadow-lg" />
         <span class="text-xl">StoryApp</span>
         <p class="text-center">
           "StoryApp" is an Android application based on Kotlin. This application is designed to
