@@ -7,3 +7,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+.imek:hover {
+  transform: scale(1.2);
+}
+
+.popup-image {
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+
+.popup-image img {
+  transform: translate(-50%, -50%);
+}

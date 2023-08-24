@@ -1,5 +1,5 @@
 <script setup>
-import navbar from '../components/Navbar.vue'
+// import navbar from '../components/Navbar.vue'
 import contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
 import projects from '../components/Projects.vue'
@@ -30,10 +30,10 @@ import about from '../components/About.vue'
 
 <template>
   <main>
-    <section class="navbar1 fixed w-full">
+    <section class="navbar1 fixed z-10 w-full">
       <header class="bg-[#050404]">
         <!-- :class="{ 'scrolled' : !view.atTopOfPage }" -->
-        <nav class="" >
+        <nav class="">
           <div class="flex flex-wrap items-center justify-between p-4">
             <a href="#" class="flex items-center">
               <span
