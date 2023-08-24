@@ -6,26 +6,26 @@ let getPhoto = ref('')
 const openPopup = (x) => {
   if (x == 1) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/jammin.jpg?alt=media&token=832c3085-fd57-49d4-b01a-6d31d249b20c'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2Fjammin.jpg?alt=media&token=f96d372d-4cd0-4ce8-92b8-a372d5967fe7'
     console.log(getPhoto)
   } else if (x == 2) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/NutriPlan.jpg?alt=media&token=e9d51b4a-8e8d-4ed8-b5bc-c8ceb054a8b1'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FNutriPlan.jpg?alt=media&token=fdfea49c-57ab-400b-b776-8b2b932dac84'
   } else if (x == 3) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/GithubUser.jpg?alt=media&token=c1436ad1-c2c4-42a9-9205-aa3657fb52dd'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FGithubUser.jpg?alt=media&token=a7df2629-574e-4285-9082-8f4461959aac'
   } else if (x == 4) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/StoryApp.jpg?alt=media&token=2fbb8ce4-e860-4c52-b012-74f42663715d'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FStoryApp.jpg?alt=media&token=a0b2d4bd-6eb5-413b-84ce-f12f41e16ca8'
   } else if (x == 5) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/GameNews.jpg?alt=media&token=bd89e9fb-f375-46d3-94a9-359a284010a8'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FGameNews.jpg?alt=media&token=b1d4e775-62ee-4c4a-bd40-c2f27ca41249'
   } else if (x == 6) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/TodoApp.jpg?alt=media&token=52989d06-1ad2-469f-b060-d3774a2c443c'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FTodoApp.jpg?alt=media&token=44357f8e-c835-4e13-adee-d0111f577b18'
   } else if (x == 7) {
     getPhoto.value =
-      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/JSQuiz.jpg?alt=media&token=f825e058-a14f-4f1e-8753-474989508313'
+      'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FJSQuiz.jpg?alt=media&token=e9a3bdb6-ec85-4997-8586-f3b0839a67a4'
   }
 
   document.querySelector('.popup-image').style.display = 'block'
