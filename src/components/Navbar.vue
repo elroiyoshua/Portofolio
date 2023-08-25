@@ -2,7 +2,7 @@
 
 <template>
   <!-- navbar -->
-  <section class="navbar fixed w-full">
+  <section class="navbar fixed w-full z-10">
     <header class="bg-[#050404]">
       <nav class="">
         <div class="flex flex-wrap items-center justify-between p-4 ">

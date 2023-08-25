@@ -11,6 +11,7 @@ html {
 .imek:hover {
   cursor: pointer;
   opacity: 0.5;
+  overflow: hidden;
 }
 
 .popup-image {

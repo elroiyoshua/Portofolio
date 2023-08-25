@@ -26,7 +26,11 @@ const closePopup = () => {
             src="../assets/image/jammin.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/jammin.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2Fjammin.svg?alt=media&token=5ef2c84d-4b37-47da-ad83-150c9a0a1b45'
+              )
+            "
           />
         </div>
 
@@ -46,7 +50,11 @@ const closePopup = () => {
             src="../assets/image/NutriPlan.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/NutriPlan.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FNutriPlan.svg?alt=media&token=dcf7202a-81d5-4be3-9d83-2dc0b5e96218'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">NutriPlan</span>
@@ -66,7 +74,11 @@ const closePopup = () => {
             src="../assets/image/GithubUser.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/GithubUser.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FGithubUser.svg?alt=media&token=e534165b-a4be-4388-822e-254e6d86b7ae'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">GithubUser</span>
@@ -84,7 +96,11 @@ const closePopup = () => {
             src="../assets/image/StoryApp.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/StoryApp.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FStoryApp.svg?alt=media&token=5aa6052d-2c5d-49dd-bc4f-57d080f4888c'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">StoryApp</span>
@@ -103,7 +119,11 @@ const closePopup = () => {
             src="../assets/image/GameNews.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/GameNews.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FGameNews.svg?alt=media&token=82de4818-b3fc-4c84-95d4-a7bf24f7bfbd'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">GameNews</span>
@@ -124,7 +144,11 @@ const closePopup = () => {
             src="../assets/image/TodoApp.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill hover:rounded-md"
-            @click="cobapop('/src/assets/image/TodoApp.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FTodoApp.svg?alt=media&token=61a2ee99-2b54-4872-bd64-708f0449125b'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">TodoApp</span>
@@ -142,7 +166,11 @@ const closePopup = () => {
             src="../assets/image/JSQuiz.jpg"
             alt=""
             class="imek border-1 shadow-lg w-full h-full object-fill"
-            @click="cobapop('/src/assets/image/JSQuiz.jpg')"
+            @click="
+              cobapop(
+                'https://firebasestorage.googleapis.com/v0/b/jamminapp-f2693.appspot.com/o/p%2FJSQuiz.svg?alt=media&token=5391a083-8913-4bf2-a000-9b7a44629120'
+              )
+            "
           />
         </div>
         <span class="text-xl font-mont">JS Quiz</span>
