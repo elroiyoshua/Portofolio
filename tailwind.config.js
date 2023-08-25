@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ['Poppins', 'Sans-serif'],
-      mont: ['Montserrat']
+      mont: ['Montserrat'],
+      alay: ['Sedgwick Ave Display']
     }
   },
   plugins: [require('flowbite/plugin')]

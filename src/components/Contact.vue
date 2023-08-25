@@ -2,7 +2,7 @@
 
 <template>
   <div class="text-slate-300 text-center items-center w-full mt-10">
-    <h1 class="text-2xl md:text-xl lg:text-xl">Contact me Here</h1>
+    <h1 class="text-2xl md:text-xl lg:text-xl font-mont">Contact me Here</h1>
     <ul class="flex gap-5 justify-center mt-2">
       <li class="">
         <a href="mailto: elroiyoshua@gmail.com"

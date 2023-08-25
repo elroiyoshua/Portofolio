@@ -8,7 +8,7 @@
         <div class="flex flex-wrap items-center justify-between p-4 ">
           <a href="#" class="flex items-center">
             <span
-              class="self-center text-2xl font-semibold whitespace-nowrap text-slate-300 dark:text-white"
+              class="self-center text-2xl font-semibold whitespace-nowrap text-slate-300 dark:text-white font-alay hover:text-opacity-50"
               >Elroi.</span
             >
           </a>
@@ -45,7 +45,7 @@
               <li>
                 <a
                   href="#about"
-                  class="flex gap-1 py-2 pl-3 pr-4 text-slate-300 rounded hover:text-opacity-50"
+                  class="flex gap-1 py-2 pl-3 pr-4 text-slate-300 rounded hover:text-opacity-50 "
                 >
                   Home</a
                 >
